@@ -2,8 +2,6 @@ from datetime import datetime
 import requests
 
 class btime():
-    def __init__(self):
-        pass
 
     def time(self, military:str=None) -> str:
         now = datetime.now()
