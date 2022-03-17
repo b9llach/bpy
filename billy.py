@@ -11,7 +11,6 @@ class btime():
             if military.lower() == 'true':
                 if int(time.split(":")[0]) > 12:
                     return time + " PM"
-
                 else:
                     if int(time.split(":")[0]) == 12:
                         return time + " PM"
